@@ -1,0 +1,16 @@
+
+{% extends "base.html" %}
+{% block content %}
+    <div class="container">
+        <form action="" method="POST">
+            <div class="mb-3 mt-3">
+                <label for="latex">latex:</label>
+                <input type="text" class="form-control" id="latex" placeholder="Enter latex" name="latex">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        {{ latex }}
+    </div>
+
+
+{% endblock %}
